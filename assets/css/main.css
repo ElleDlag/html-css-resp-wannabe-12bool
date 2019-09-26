@@ -3,19 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.container{
-    max-width:1196px;
-    margin: auto
+/* body{
+    padding:1%
+} */
+.row{
+    max-width:992px;
+    margin: auto;
+/*     border:1px solid green */
 }
-.container::after{
+.row::after{
     content: "";
     display: table;
     clear: both;
 }
-.row{
+/* .row{
     width:100%
-}
+} */
 [class^="col-"]{
     float:left
 }
